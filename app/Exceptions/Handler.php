@@ -60,10 +60,6 @@ class Handler extends NewExceptionHandler
             case NoRecordsFound::class:
                 $exception = new HttpException(404, $exception->getMessage(), $exception);
                 break;
-            
-            case ValidationException::class:
-                $exception = new HttpException(422, $exception->getMessage(), $exception);
-                break;
         }
         
         return parent::render($request, $exception);

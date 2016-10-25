@@ -6,3 +6,5 @@
 Homestead.json
 Homestead.yaml
 .env
+/public/assets/scripts/
+/public/assets/rev-manifest.json

@@ -16,7 +16,7 @@
         "laravel/framework": "~5.3.19",
         "laravelcollective/html": "~5.3.0",
         "nesbot/carbon": "^1.21",
-        "nwidart/laravel-modules": "dev-develop",
+        "nwidart/laravel-modules": "dev-feature/refactor-structure",
         "predis/predis": "^1.0",
         "radic/blade-extensions": "^6.2",
         "sebastiaanluca/laravel-conditional-providers": "dev-develop",

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6d5ad075b176fc8fcfe126fee136b30b",
-    "content-hash": "0653ddad4525cd959a7bbfd9f8fd5dc9",
+    "hash": "de21eddc05ca275c1d0edbcfa29f8689",
+    "content-hash": "5b746cd88946eb5d6202e5494d5e2276",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -588,16 +588,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.3.19",
+            "version": "v5.3.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "f1a5bb417b3e0d1949fe84617eacd1a14d75d7f1"
+                "reference": "09f2515b72eba3229dfce44a801852b9b8d011e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/f1a5bb417b3e0d1949fe84617eacd1a14d75d7f1",
-                "reference": "f1a5bb417b3e0d1949fe84617eacd1a14d75d7f1",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/09f2515b72eba3229dfce44a801852b9b8d011e2",
+                "reference": "09f2515b72eba3229dfce44a801852b9b8d011e2",
                 "shasum": ""
             },
             "require": {
@@ -712,7 +712,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-10-17 19:35:14"
+            "time": "2016-10-25 13:38:24"
         },
         {
             "name": "laravelcollective/html",
@@ -1134,16 +1134,16 @@
         },
         {
             "name": "nwidart/laravel-modules",
-            "version": "dev-develop",
+            "version": "dev-feature/refactor-structure",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastiaanluca/laravel-modules.git",
-                "reference": "6406eaa8a2a9e08b412ecd8d8829e87dec7735a0"
+                "reference": "c892f5663c004cc65f6fd4d8ef279c7a55018c4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastiaanluca/laravel-modules/zipball/6406eaa8a2a9e08b412ecd8d8829e87dec7735a0",
-                "reference": "6406eaa8a2a9e08b412ecd8d8829e87dec7735a0",
+                "url": "https://api.github.com/repos/sebastiaanluca/laravel-modules/zipball/c892f5663c004cc65f6fd4d8ef279c7a55018c4b",
+                "reference": "c892f5663c004cc65f6fd4d8ef279c7a55018c4b",
                 "shasum": ""
             },
             "require": {
@@ -1191,9 +1191,9 @@
                 "rad"
             ],
             "support": {
-                "source": "https://github.com/sebastiaanluca/laravel-modules/tree/develop"
+                "source": "https://github.com/sebastiaanluca/laravel-modules/tree/feature/refactor-structure"
             },
-            "time": "2016-10-03 17:17:09"
+            "time": "2016-10-25 19:51:18"
         },
         {
             "name": "paragonie/random_compat",
@@ -1896,12 +1896,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastiaanluca/laravel-helpers.git",
-                "reference": "eefc94a3786b30618b290c23a4f196a70e7a7927"
+                "reference": "d78f931d3d4fd7d18dc11cd517a7c80ed270c287"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastiaanluca/laravel-helpers/zipball/eefc94a3786b30618b290c23a4f196a70e7a7927",
-                "reference": "eefc94a3786b30618b290c23a4f196a70e7a7927",
+                "url": "https://api.github.com/repos/sebastiaanluca/laravel-helpers/zipball/d78f931d3d4fd7d18dc11cd517a7c80ed270c287",
+                "reference": "d78f931d3d4fd7d18dc11cd517a7c80ed270c287",
                 "shasum": ""
             },
             "require": {
@@ -1944,7 +1944,7 @@
                 "laravel",
                 "pipe"
             ],
-            "time": "2016-09-29 14:57:23"
+            "time": "2016-10-23 21:21:47"
         },
         {
             "name": "sebastiaanluca/laravel-router",
@@ -3837,16 +3837,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "5.6.1",
+            "version": "5.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "60c32c5b5e79c2248001efa2560f831da11cc2d7"
+                "reference": "cd13b23ac5a519a4708e00736c26ee0bb28b2e01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/60c32c5b5e79c2248001efa2560f831da11cc2d7",
-                "reference": "60c32c5b5e79c2248001efa2560f831da11cc2d7",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/cd13b23ac5a519a4708e00736c26ee0bb28b2e01",
+                "reference": "cd13b23ac5a519a4708e00736c26ee0bb28b2e01",
                 "shasum": ""
             },
             "require": {
@@ -3915,7 +3915,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-10-07 13:03:26"
+            "time": "2016-10-25 07:40:25"
         },
         {
             "name": "phpunit/phpunit-mock-objects",

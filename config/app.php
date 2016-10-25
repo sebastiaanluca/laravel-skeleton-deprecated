@@ -62,12 +62,6 @@ return [
         SebastiaanLuca\ConditionalProviders\Providers\EnvironmentProvidersServiceProvider::class,
         
         /*
-         * Modules
-         */
-        
-        Theme\Providers\ThemeServiceProvider::class,
-        
-        /*
          * Application
          */
         

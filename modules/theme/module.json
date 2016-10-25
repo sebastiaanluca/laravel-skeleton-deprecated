@@ -7,7 +7,7 @@
     "active": true,
     "order": 0,
     "providers": [
-        "Modules\\Theme\\Providers\\ThemeServiceProvider"
+        "Theme\\Providers\\ThemeServiceProvider"
     ],
     "aliases":{},
     "files": []

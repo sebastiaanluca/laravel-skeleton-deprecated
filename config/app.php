@@ -50,7 +50,7 @@ return [
         /*
          * Third-party packages
          */
-
+        
         GrahamCampbell\Exceptions\ExceptionsServiceProvider::class,
         SebastiaanLuca\Router\RouterServiceProvider::class,
         Radic\BladeExtensions\BladeExtensionsServiceProvider::class,
@@ -65,7 +65,7 @@ return [
          * Modules
          */
         
-        //
+        Theme\Providers\ThemeServiceProvider::class,
         
         /*
          * Application

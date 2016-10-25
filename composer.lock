@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "de21eddc05ca275c1d0edbcfa29f8689",
-    "content-hash": "5b746cd88946eb5d6202e5494d5e2276",
+    "hash": "2ab1060cda2ed2358a802078beb5a009",
+    "content-hash": "dcc898dbc42a5348fa9a838fd03f5fd7",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -1138,12 +1138,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastiaanluca/laravel-modules.git",
-                "reference": "c892f5663c004cc65f6fd4d8ef279c7a55018c4b"
+                "reference": "c3eb4a39398aead93abfde847d0d6c6392f9343d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastiaanluca/laravel-modules/zipball/c892f5663c004cc65f6fd4d8ef279c7a55018c4b",
-                "reference": "c892f5663c004cc65f6fd4d8ef279c7a55018c4b",
+                "url": "https://api.github.com/repos/sebastiaanluca/laravel-modules/zipball/c3eb4a39398aead93abfde847d0d6c6392f9343d",
+                "reference": "c3eb4a39398aead93abfde847d0d6c6392f9343d",
                 "shasum": ""
             },
             "require": {
@@ -1151,7 +1151,7 @@
                 "laravelcollective/html": "5.3.*",
                 "php": ">=5.6.4",
                 "phpdocumentor/reflection-docblock": "^3.1",
-                "rinvex/repository": "^2.0"
+                "rinvex/repository": "dev-feature/add-entities as 2.0.1"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^1.11",
@@ -1193,7 +1193,7 @@
             "support": {
                 "source": "https://github.com/sebastiaanluca/laravel-modules/tree/feature/refactor-structure"
             },
-            "time": "2016-10-25 19:51:18"
+            "time": "2016-10-25 22:47:32"
         },
         {
             "name": "paragonie/random_compat",
@@ -1767,15 +1767,15 @@
         },
         {
             "name": "rinvex/repository",
-            "version": "v2.0.1",
+            "version": "dev-feature/add-entities",
             "source": {
                 "type": "git",
-                "url": "https://github.com/rinvex/repository.git",
+                "url": "https://github.com/sebastiaanluca/repository.git",
                 "reference": "32e808bc19d2ae322f62027a75e0f9cc1474ef2b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rinvex/repository/zipball/32e808bc19d2ae322f62027a75e0f9cc1474ef2b",
+                "url": "https://api.github.com/repos/sebastiaanluca/repository/zipball/32e808bc19d2ae322f62027a75e0f9cc1474ef2b",
                 "reference": "32e808bc19d2ae322f62027a75e0f9cc1474ef2b",
                 "shasum": ""
             },
@@ -1801,20 +1801,19 @@
                     "Rinvex\\Repository\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
             "authors": [
                 {
                     "name": "Rinvex LLC",
-                    "email": "help@rinvex.com",
-                    "homepage": "https://rinvex.com"
+                    "homepage": "https://rinvex.com",
+                    "email": "help@rinvex.com"
                 },
                 {
                     "name": "Abdelrahman Omran",
-                    "email": "me@omranic.com",
                     "homepage": "https://omranic.com",
+                    "email": "me@omranic.com",
                     "role": "Project Lead"
                 },
                 {
@@ -1836,6 +1835,12 @@
                 "repository",
                 "rinvex"
             ],
+            "support": {
+                "email": "help@rinvex.com",
+                "issues": "https://github.com/rinvex/repository/issues",
+                "source": "https://github.com/rinvex/repository",
+                "docs": "https://github.com/rinvex/repository/blob/master/README.md"
+            },
             "time": "2016-08-05 22:40:10"
         },
         {
@@ -4756,14 +4761,14 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": {
         "nwidart/laravel-modules": 20,
         "sebastiaanluca/laravel-conditional-providers": 20,
         "sebastiaanluca/laravel-helpers": 20,
         "sebastiaanluca/laravel-router": 20
     },
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": ">=7.0.8"

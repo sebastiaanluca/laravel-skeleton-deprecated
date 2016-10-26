@@ -1138,12 +1138,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastiaanluca/laravel-modules.git",
-                "reference": "5499991f13bcc2a5cf7adfda9779d3446ece252b"
+                "reference": "1eba1f708d77057c7d5cb0bdf4552d5e01012706"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastiaanluca/laravel-modules/zipball/5499991f13bcc2a5cf7adfda9779d3446ece252b",
-                "reference": "5499991f13bcc2a5cf7adfda9779d3446ece252b",
+                "url": "https://api.github.com/repos/sebastiaanluca/laravel-modules/zipball/1eba1f708d77057c7d5cb0bdf4552d5e01012706",
+                "reference": "1eba1f708d77057c7d5cb0bdf4552d5e01012706",
                 "shasum": ""
             },
             "require": {
@@ -1151,7 +1151,10 @@
                 "laravelcollective/html": "5.3.*",
                 "php": ">=5.6.4",
                 "phpdocumentor/reflection-docblock": "^3.1",
-                "rinvex/repository": "dev-feature/add-entities as 2.0.1"
+                "rinvex/repository": "dev-feature/add-entities as 2.0.1",
+                "sebastiaanluca/laravel-helpers": "dev-develop",
+                "sebastiaanluca/laravel-unbreakable-migrations": "dev-develop",
+                "sebastiaanluca/laravel-validator": "dev-develop"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^1.11",
@@ -1193,7 +1196,7 @@
             "support": {
                 "source": "https://github.com/sebastiaanluca/laravel-modules/tree/feature/refactor-structure"
             },
-            "time": "2016-10-26 14:38:16"
+            "time": "2016-10-26 22:41:50"
         },
         {
             "name": "paragonie/random_compat",
@@ -1771,12 +1774,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastiaanluca/repository.git",
-                "reference": "4b685131d85faa12364f922b45f321982fab9085"
+                "reference": "1bae86018d1f043b5828f9d972a9c57f14ec5e2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastiaanluca/repository/zipball/4b685131d85faa12364f922b45f321982fab9085",
-                "reference": "4b685131d85faa12364f922b45f321982fab9085",
+                "url": "https://api.github.com/repos/sebastiaanluca/repository/zipball/1bae86018d1f043b5828f9d972a9c57f14ec5e2e",
+                "reference": "1bae86018d1f043b5828f9d972a9c57f14ec5e2e",
                 "shasum": ""
             },
             "require": {
@@ -1841,7 +1844,7 @@
                 "source": "https://github.com/rinvex/repository",
                 "docs": "https://github.com/rinvex/repository/blob/master/README.md"
             },
-            "time": "2016-10-26 14:38:27"
+            "time": "2016-10-26 20:36:50"
         },
         {
             "name": "sebastiaanluca/laravel-conditional-providers",
@@ -1849,12 +1852,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastiaanluca/laravel-conditional-providers.git",
-                "reference": "7986a76cea01be550dcb4f4eb4a32c8ba127815d"
+                "reference": "3c58d215fdb9d821601725661ca48933bfd151be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastiaanluca/laravel-conditional-providers/zipball/7986a76cea01be550dcb4f4eb4a32c8ba127815d",
-                "reference": "7986a76cea01be550dcb4f4eb4a32c8ba127815d",
+                "url": "https://api.github.com/repos/sebastiaanluca/laravel-conditional-providers/zipball/3c58d215fdb9d821601725661ca48933bfd151be",
+                "reference": "3c58d215fdb9d821601725661ca48933bfd151be",
                 "shasum": ""
             },
             "require": {
@@ -1867,7 +1870,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-develop": "1.0-dev"
                 }
             },
             "autoload": {
@@ -1893,7 +1896,7 @@
                 "laravel",
                 "service providers"
             ],
-            "time": "2016-08-26 15:26:09"
+            "time": "2016-10-26 22:03:24"
         },
         {
             "name": "sebastiaanluca/laravel-helpers",
@@ -1901,12 +1904,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastiaanluca/laravel-helpers.git",
-                "reference": "d78f931d3d4fd7d18dc11cd517a7c80ed270c287"
+                "reference": "edbff1fe8e718fc83761c452f85b3b90367d5f57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastiaanluca/laravel-helpers/zipball/d78f931d3d4fd7d18dc11cd517a7c80ed270c287",
-                "reference": "d78f931d3d4fd7d18dc11cd517a7c80ed270c287",
+                "url": "https://api.github.com/repos/sebastiaanluca/laravel-helpers/zipball/edbff1fe8e718fc83761c452f85b3b90367d5f57",
+                "reference": "edbff1fe8e718fc83761c452f85b3b90367d5f57",
                 "shasum": ""
             },
             "require": {
@@ -1919,7 +1922,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-develop": "1.0-dev"
                 }
             },
             "autoload": {
@@ -1949,7 +1952,7 @@
                 "laravel",
                 "pipe"
             ],
-            "time": "2016-10-23 21:21:47"
+            "time": "2016-10-26 21:57:11"
         },
         {
             "name": "sebastiaanluca/laravel-router",
@@ -1957,12 +1960,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastiaanluca/laravel-router.git",
-                "reference": "56a86b5ac0b64303f49bf826f8f22db85e955ad7"
+                "reference": "d7aef576b2a88409054d5f9e532b0430f4f7ea16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastiaanluca/laravel-router/zipball/56a86b5ac0b64303f49bf826f8f22db85e955ad7",
-                "reference": "56a86b5ac0b64303f49bf826f8f22db85e955ad7",
+                "url": "https://api.github.com/repos/sebastiaanluca/laravel-router/zipball/d7aef576b2a88409054d5f9e532b0430f4f7ea16",
+                "reference": "d7aef576b2a88409054d5f9e532b0430f4f7ea16",
                 "shasum": ""
             },
             "require": {
@@ -1980,6 +1983,11 @@
                 "phpunit/phpunit": "^5.4"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "1.0-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "SebastiaanLuca\\Router\\": "src"
@@ -1994,7 +2002,7 @@
                     "name": "Sebastiaan Luca",
                     "email": "hello@sebastiaanluca.com",
                     "homepage": "http://www.sebastiaanluca.com",
-                    "role": "author"
+                    "role": "Author"
                 }
             ],
             "description": "An organized approach to handling Laravel routes. Provides additional functionality on top of the default HTTP router.",
@@ -2005,7 +2013,119 @@
                 "laravel-router",
                 "router"
             ],
-            "time": "2016-10-01 17:33:26"
+            "time": "2016-10-26 21:59:32"
+        },
+        {
+            "name": "sebastiaanluca/laravel-unbreakable-migrations",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastiaanluca/laravel-unbreakable-migrations.git",
+                "reference": "0cfa6f9d87ed61b83d4199513b37debc6ec4bcbf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastiaanluca/laravel-unbreakable-migrations/zipball/0cfa6f9d87ed61b83d4199513b37debc6ec4bcbf",
+                "reference": "0cfa6f9d87ed61b83d4199513b37debc6ec4bcbf",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.1",
+                "php": "~5.6|~7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0||~5.0",
+                "squizlabs/php_codesniffer": "^2.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SebastiaanLuca\\Migrations\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastiaan Luca",
+                    "email": "hello@sebastiaanluca.com",
+                    "homepage": "https://www.sebastiaanluca.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Prevent your Laravel database migrations from failing by using transactional queries.",
+            "homepage": "https://www.github.com/sebastiaanluca/laravel-unbreakable-migrations",
+            "keywords": [
+                "Sebastiaan Luca",
+                "database",
+                "laravel",
+                "migrations",
+                "transactional",
+                "transactions"
+            ],
+            "time": "2016-10-26 22:33:12"
+        },
+        {
+            "name": "sebastiaanluca/laravel-validator",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastiaanluca/laravel-validator.git",
+                "reference": "6e11b810386a9b98c34bba568a6a70bad2cdebca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastiaanluca/laravel-validator/zipball/6e11b810386a9b98c34bba568a6a70bad2cdebca",
+                "reference": "6e11b810386a9b98c34bba568a6a70bad2cdebca",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.1",
+                "php": "~5.6|~7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0||~5.0",
+                "squizlabs/php_codesniffer": "^2.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SebastiaanLuca\\Validator\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastiaan Luca",
+                    "email": "hello@sebastiaanluca.com",
+                    "homepage": "https://www.sebastiaanluca.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "An extension to the Laravel form request class to properly handle user input by using your validation rules as source of truth.",
+            "homepage": "https://www.github.com/sebastiaanluca/laravel-validator",
+            "keywords": [
+                "Sebastiaan Luca",
+                "form request",
+                "laravel",
+                "validator"
+            ],
+            "time": "2016-10-26 21:56:59"
         },
         {
             "name": "sebwite/support",

@@ -588,16 +588,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.3.20",
+            "version": "v5.3.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "09f2515b72eba3229dfce44a801852b9b8d011e2"
+                "reference": "140ad823863d5cc6f4580f1cdf9b18b9a6a457f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/09f2515b72eba3229dfce44a801852b9b8d011e2",
-                "reference": "09f2515b72eba3229dfce44a801852b9b8d011e2",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/140ad823863d5cc6f4580f1cdf9b18b9a6a457f4",
+                "reference": "140ad823863d5cc6f4580f1cdf9b18b9a6a457f4",
                 "shasum": ""
             },
             "require": {
@@ -712,7 +712,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-10-25 13:38:24"
+            "time": "2016-10-26 13:27:05"
         },
         {
             "name": "laravelcollective/html",
@@ -1138,12 +1138,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastiaanluca/laravel-modules.git",
-                "reference": "c3eb4a39398aead93abfde847d0d6c6392f9343d"
+                "reference": "5499991f13bcc2a5cf7adfda9779d3446ece252b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastiaanluca/laravel-modules/zipball/c3eb4a39398aead93abfde847d0d6c6392f9343d",
-                "reference": "c3eb4a39398aead93abfde847d0d6c6392f9343d",
+                "url": "https://api.github.com/repos/sebastiaanluca/laravel-modules/zipball/5499991f13bcc2a5cf7adfda9779d3446ece252b",
+                "reference": "5499991f13bcc2a5cf7adfda9779d3446ece252b",
                 "shasum": ""
             },
             "require": {
@@ -1193,7 +1193,7 @@
             "support": {
                 "source": "https://github.com/sebastiaanluca/laravel-modules/tree/feature/refactor-structure"
             },
-            "time": "2016-10-25 22:47:32"
+            "time": "2016-10-26 14:38:16"
         },
         {
             "name": "paragonie/random_compat",
@@ -1771,12 +1771,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastiaanluca/repository.git",
-                "reference": "32e808bc19d2ae322f62027a75e0f9cc1474ef2b"
+                "reference": "4b685131d85faa12364f922b45f321982fab9085"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastiaanluca/repository/zipball/32e808bc19d2ae322f62027a75e0f9cc1474ef2b",
-                "reference": "32e808bc19d2ae322f62027a75e0f9cc1474ef2b",
+                "url": "https://api.github.com/repos/sebastiaanluca/repository/zipball/4b685131d85faa12364f922b45f321982fab9085",
+                "reference": "4b685131d85faa12364f922b45f321982fab9085",
                 "shasum": ""
             },
             "require": {
@@ -1841,7 +1841,7 @@
                 "source": "https://github.com/rinvex/repository",
                 "docs": "https://github.com/rinvex/repository/blob/master/README.md"
             },
-            "time": "2016-08-05 22:40:10"
+            "time": "2016-10-26 14:38:27"
         },
         {
             "name": "sebastiaanluca/laravel-conditional-providers",

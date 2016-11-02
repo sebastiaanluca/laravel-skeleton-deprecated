@@ -10,7 +10,7 @@
     "license": "MIT",
     "type": "project",
     "require": {
-        "php": ">=7.0.8",
+        "php": ">=7.0.0",
         "barryvdh/laravel-debugbar": "^2.2.3",
         "graham-campbell/exceptions": "^9.0",
         "laravel/framework": "~5.3.19",
@@ -68,6 +68,7 @@
             "php artisan key:generate"
         ],
         "post-install-cmd": [
+            "php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
             "Illuminate\\Foundation\\ComposerScripts::postInstall",
             "composer dumpautoload -o",
             "php artisan optimize"
@@ -79,7 +80,6 @@
             "php artisan optimize"
         ],
         "configure": [
-            "php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
             "php artisan key:generate"
         ]
     },
